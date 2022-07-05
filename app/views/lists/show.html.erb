@@ -6,9 +6,9 @@
 
 <h2>画像</h2>
 <% if @list.image.attached? %>
-  <%= image_tag @list.image, size: "300×300" %>
+  <%= image_tag @list.image, width: "300px", height: "300px" %>
 <% else %>
-  <%= image_tag 'no_image', size: "300×300" %>
+  <%= image_tag 'no_image', width: "300px", height: "300px" %>
 <% end %>
 
 
